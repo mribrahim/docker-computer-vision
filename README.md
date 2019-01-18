@@ -1,5 +1,4 @@
 # docker-computer-vision
-docker image with python, opencv, dlib, tensorflow and keras
 
 You can find many of libraries to develop a computer vision application.
 
@@ -18,6 +17,9 @@ You can find many of libraries to develop a computer vision application.
 - ..
 
 
+add **-v /d/docker/examples:/home** command to share __host folder:__ *D:\docker\examples* with __container folder:__ */home*
 
+**docker run -v /d/docker/examples:/home -it mribrahim/vision bash**
+![commands to run landmarks.py file](https://github.com/mribrahim/docker-computer-vision/blob/master/commands.PNG)
 
-reference: https://hub.docker.com/r/jjanzic/docker-python3-opencv
+![input and processed images](https://github.com/mribrahim/docker-computer-vision/blob/master/temp.PNG)
